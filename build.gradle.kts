@@ -10,9 +10,9 @@ repositories {
 
 dependencies {
     implementation("org.apache.maven.plugins:maven-project-info-reports-plugin:2.9")
-    testCompile("junit:junit:4.12")
-    compileOnly("com.google.code.findbugs:annotations:3.0.1")
-    compileOnly("org.codehaus.mojo:findbugs-maven-plugin:3.0.4")
+    implementation("com.google.code.findbugs:annotations:3.0.1")
+
+    testImplementation("junit:junit:4.13")
 }
 
 group = "org.gedcom4j"
